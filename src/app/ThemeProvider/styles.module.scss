@@ -1,0 +1,20 @@
+.theme {
+  width: 100vw;
+  height: 100vh;
+
+  color: var(--text);
+  background: var(--background);
+
+  &.light {
+    --background: white;
+    --text: black;
+    --error: red;
+  }
+  
+  &.dark {
+    --background: black;
+    --text: white;
+    --error: orange;
+  }
+}
+
